@@ -21,6 +21,7 @@ const setUserCity = (city) => ({
 
 /* Reducers */
 const userNameReducer = (state = '', { type, payload }) => {
+
   switch (type) {
     case SET_USER_NAME:
       return {
@@ -31,6 +32,10 @@ const userNameReducer = (state = '', { type, payload }) => {
       return state
   }
 }
+
+/* const userCityReducer = (state, action) => {
+
+}*/
 
 const userCityReducer = (state = '', { type, payload }) => {
   // log('type', type)
