@@ -7,7 +7,6 @@ const SET_USER_NAME = 'setUserName'
 */
 const setUserNameV1 = () => ({
   type: SET_USER_NAME,
-
 })
 /* Call action */
 log('setUserNameV1', setUserNameV1())
