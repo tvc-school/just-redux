@@ -5,7 +5,7 @@ const SET_USER_NAME = 'setUserName'
 
 /* An action creator is a function that returns an action
 */
-const setUserNameV1 = (name) => ({
+const setUserNameV1 = () => ({
   type: SET_USER_NAME,
 
 })

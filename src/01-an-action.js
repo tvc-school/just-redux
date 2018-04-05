@@ -1,6 +1,5 @@
 import { log } from './ke-log'
 
-
 const SET_USER_NAME = 'setUserName'
 
 // An action has a 'type' property
